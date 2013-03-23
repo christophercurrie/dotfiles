@@ -1,8 +1,8 @@
-shell -bash
+shell -zsh
 startup_message off
 autodetach on
 altscreen on
-shelltitle '$ |bash'
+shelltitle '$ |zsh'
 defscrollback 10000
 defutf8 on
 nonblock on
