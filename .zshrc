@@ -69,6 +69,16 @@ export SITE_CONTENT_KEY=d41d8cd98f00b204e9800998ecf8427e
 alias up='make update'
 alias chrome-dev='google-chrome --disable-web-security 2&> /dev/null &'
 alias sub-pull='git submodule foreach git pull'
+alias gs='git status '
+alias ga='git add '
+alias gb='git branch '
+alias gc='git commit '
+alias gd='git diff '
+alias go='git checkout '
+alias gx='gitx --all '
+
+alias got='git'
+alias get='git'
 
 [[ -s "~/.rvm/scripts/rvm" ]] && source "~/.rvm/scripts/rvm"  # This loads RVM into a shell session.
 
