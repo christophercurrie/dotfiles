@@ -62,6 +62,7 @@ export PATH=~/.scripts:$PATH
 export PATH=/usr/local/bin:$PATH
 export PATH=./node_modules/.bin:$PATH
 export PATH=~/.gem/ruby/1.9.1/bin:$PATH
+export PATH=/usr/local/share/npm/bin:$PATH
 export NODE_PATH=/usr/lib/node_modules/
 export EDITOR=vim
 export SITE_CONTENT_KEY=d41d8cd98f00b204e9800998ecf8427e
