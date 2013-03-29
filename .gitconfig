@@ -1,0 +1,25 @@
+[alias]
+	co = checkout
+	ci = commit
+	st = status
+	br = branch
+	hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
+	type = cat-file -t
+	dump = cat-file -p
+[core]
+	safecrlf = warn
+	autocrlf = true
+
+[user]
+	name = Christopher Currie
+	email = ccurrie@impresys.com
+[diff]
+	tool = bc3
+[difftool "bc3"]
+	path = bcomp.exe
+[merge]
+	tool = bc3
+[mergetool "bc3"]
+	path = bcomp.exe
+[color]
+	ui = auto
